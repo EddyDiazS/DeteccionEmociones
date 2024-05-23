@@ -1,5 +1,5 @@
-# Code Pills: Reconocimiento facial con Javascript y Face API (Tensorflow).
+Deteccion de emociones
 
-En este vídeo hacemos Reconocimiento Facial con Javascript y Face API usando Tensorflow (machine learning).
-
-Puedes ver el vídeo completo [aquí](https://youtu.be/QbQuNyEgMvY)
+Clonar el repositorio y con ayuda del index hacemos uso del live server 
+Se selecciona la imagen que se desee analizar y mirar que emocion tiene una persona
+Se mostrara la imagen y la emocion detectada
