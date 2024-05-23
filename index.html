@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detección de Expresiones Faciales</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mt-5">Detección de Expresiones Faciales</h1>
+        <div class="custom-file mt-5 mb-3">
+            <input type="file" class="custom-file-input" id="file-input" accept="image/*">
+            <label class="custom-file-label" for="file-input">Seleccionar archivo...</label>
+        </div>
+        <div class="image-container">
+            <canvas id="canvas" class="img-fluid rounded mx-auto d-block mt-5"></canvas>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- FaceAPI JS -->
+    <script src="face-api.min.js"></script>
+    <!-- Script personalizado -->
+    <script src="script.js" type="module"></script>
+</body>
+</html>
